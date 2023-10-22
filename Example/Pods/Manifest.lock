@@ -1,0 +1,18 @@
+PODS:
+  - FirstModule (0.1.0):
+    - FirstModule/Release (= 0.1.0)
+  - FirstModule/Release (0.1.0)
+
+DEPENDENCIES:
+  - FirstModule (from `../`)
+
+EXTERNAL SOURCES:
+  FirstModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FirstModule: 70275a61a7ea9bdab427c5cb0502285957c0d2af
+
+PODFILE CHECKSUM: a75d9c751e8745a2a1912512185bedda50315004
+
+COCOAPODS: 1.13.0

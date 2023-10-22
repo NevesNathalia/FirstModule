@@ -1,12 +1,5 @@
-//
-//  ViewController.swift
-//  FirstModule
-//
-//  Created by Tatiane Pimentel on 10/21/2023.
-//  Copyright (c) 2023 Tatiane Pimentel. All rights reserved.
-//
-
 import UIKit
+import FirstModule
 
 class ViewController: UIViewController {
 
@@ -19,6 +12,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    @IBAction func showAlert(_ sender: Any) {
+        MainView.showMessage()
+    }
 }
 
